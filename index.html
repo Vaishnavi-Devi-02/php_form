@@ -1,0 +1,49 @@
+<html>
+<body>
+<form action="conn2.php" method="post"><table>
+  <tr>
+    <td>Name</td>
+    <td><input type="text" name="name"/><br><br></td>
+  </tr>
+  <tr>
+    <td>
+      Gender
+    </td>
+    <td>
+      <input type="radio" name="gender" value="Male"/>male
+      <input type="radio" name="gender" value="FeMale"/>Female
+    </td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="text" name="mail"/><br><br></td>
+  </tr>
+  <tr>
+    <td>Contact number</td>
+    <td><input type="text" name="no"/><br><br></td>
+  </tr>
+  <tr>
+    <td>
+      Courses
+    </td>
+    <td>  <input type="checkbox" name="skill[]" value="Dance"/>Dance
+      <input type="checkbox" name="skill[]" value="Acting and Drama"/>Acting And Drama
+      <input type="checkbox" name="skill[]" value="Outdoor Game"/>Outdoor Game
+      <input type="checkbox" name="skill[]" value="Singing"/>singing
+      <input type="checkbox" name="skill[]" value="Drawing"/>Drawing</td>
+  </tr>
+  <tr>
+    <td>
+      Batches
+    </td>
+    <td>
+        <select name="batch">
+          <option value="morning batch">Morning Batch</option>
+          <option value="evening batch">Evening Batch</option>
+        </select></td>
+    </tr>
+  <tr><td><input type="submit" name="submit" value="submit"/></td>
+  </tr></table>
+</form>
+</body>
+</html>
